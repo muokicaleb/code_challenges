@@ -10,6 +10,7 @@ Follow-up: what if you can't use division?
 
 '''
 
+
 def place_product(list1):
     list2 = []
 
@@ -19,10 +20,9 @@ def place_product(list1):
 
         result = 1
         for x in temp:
-            result = result * x 
+            result = result * x
 
-        list2[i] = result 
-
+        list2[i] = result
 
 
 test = [3, 2, 1]
